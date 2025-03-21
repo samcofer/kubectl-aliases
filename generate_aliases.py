@@ -55,6 +55,10 @@ def main():
         ('ing', 'ingress', ['g', 'd', 'rm'], None),
         ('cm', 'configmap', ['g', 'd', 'rm'], None),
         ('sec', 'secret', ['g', 'd', 'rm'], None),
+        ('ingr', 'IngressRoute', ['g', 'd', 'rm'], None),
+        ('ing', 'Ingress', ['g', 'd', 'rm'], None),
+        ('crt', 'Certificate', ['g', 'd', 'rm'], None),
+        ('csr', 'CertificateRequest', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
         ]
