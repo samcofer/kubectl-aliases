@@ -59,6 +59,8 @@ def main():
         ('ing', 'Ingress', ['g', 'd', 'rm'], None),
         ('crt', 'Certificate', ['g', 'd', 'rm'], None),
         ('csr', 'CertificateRequest', ['g', 'd', 'rm'], None),
+        ('pvc', 'PersistentVolumeClaim', ['g', 'd', 'rm'], None),
+        ('pv', 'PersistentVolume', ['g', 'd', 'rm'], None),
         ('no', 'nodes', ['g', 'd'], ['sys']),
         ('ns', 'namespaces', ['g', 'd', 'rm'], ['sys']),
         ]
